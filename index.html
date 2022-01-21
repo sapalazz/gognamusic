@@ -9,25 +9,26 @@
 </head>
 
 <body>
-    <section class="contenedor">
-        <h1>Forever young - Alphaville</h1>
-        <div id="lista-canciones">
-
+    <header>
+        <img>
+        <h1></h1>
+    </header>
+    <section>
+        <h3>Reproduciendo canción:</h3>
+        <div>
+            <img>
+            <p>Título canción</p>
+            <p>Album</p>
         </div>
 
         <div>
-            <img src="images/alphaville.jpg" alt="">
-            <h1 id="cancionSeleccionada"></h1>
             <audio src="" id="track"></audio>
             <input type="range" name="" id="barra" value="0" step="any">
-            <input type="button" value="play" id="play">
-            <input type="button" value="pause" id="pause">
-            <input type="button" value="stop" id="stop">
+            <button type="button" id="rebobinar"><img src="imagenes/rebobinar.png"></button>
+            <button type="button" id="play"><img src="imagenes/play.png"></button>
+            <button type="button" id="avanzar"><img src="imagenes/avance-rapido.png"></button>
             <input type="range" name="" id="volumen" value="0,5" min="0" max="1" step="any">
-
         </div>
-
-        <script src="js/album_alphaville.js"></script>
     </section>
 
 </body>
