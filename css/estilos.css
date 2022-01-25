@@ -16,4 +16,8 @@ nav .nombre .titulo {
   padding-top: 3%;
   padding-left: 2%;
 }
+
+.principal img {
+  max-width: 50%;
+}
 /*# sourceMappingURL=estilos.css.map */
