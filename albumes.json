@@ -1,7 +1,9 @@
-[{
+[
+    {
         "id": 1,
-        "grupo": "Dragon Force",
-        "songs": [{
+        "artista": "Dragon Force",
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Cosmic Power of the Infinite Shred Machine",
                 "cancion": "Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
@@ -25,15 +27,18 @@
                 "id": 5,
                 "titulo": "Strangers",
                 "cancion": "Dragon Force - Strangers.mp3"
-            }, {
+            },
+            {
                 "id": 6,
                 "titulo": "The Last Dragonborn",
                 "cancion": "Dragon Force - The Last Dragonborn.mp3"
-            }, {
+            },
+            {
                 "id": 7,
                 "titulo": "Heart Demolition",
                 "cancion": "DragonForce - Heart Demolition.mp3"
-            }, {
+            },
+            {
                 "id": 8,
                 "titulo": "Highway to Oblivion",
                 "cancion": "DragonForce - Highway to Oblivion.mp3"
@@ -52,8 +57,9 @@
     },
     {
         "id": 2,
-        "grupo": "Imagine Dragon",
-        "songs": [{
+        "artista": "Imagine Dragon",
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Believer",
                 "cancion": "Imagine Dragons - Believer.mp3"
@@ -70,10 +76,9 @@
             },
             {
                 "id": 4,
-                "titulo": "I´ll Make It Up To You",
-                "cancion": "Imagine Dragons - I´ll Make It Up To You.mp3"
+                "titulo": "I'll Make It Up To You",
+                "cancion": "Imagine Dragons - I'll Make It Up To You.mp3"
             },
-
             {
                 "id": 5,
                 "titulo": "Mouth Of The River",
@@ -114,13 +119,13 @@
                 "titulo": "Yesterday",
                 "cancion": "Imagine Dragons - Yesterday.mp3"
             }
-
         ]
     },
     {
         "id": 3,
-        "grupo": "Mago de Oz",
-        "songs": [{
+        "artista": "Mago de Oz",
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Fiesta pagana 2.0",
                 "cancion": "Mägo de Oz - Fiesta pagana 2.0.mp3"
