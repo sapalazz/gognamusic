@@ -1,6 +1,7 @@
 window.onload = cargarAjax;
 let reproductor = document.querySelector("#track");
-let canciones = [];
+let musica = [];
+let sonando = false;
 
 function cargarAjax() {
     cargar();
@@ -11,19 +12,23 @@ function cargarAjax() {
     req.onreadystatechange = function() {
         if (req.readyState == 4) {
             if (req.status == 200) {
+                console.log("dentro*2");
                 let datos = req.responseText;
-                canciones = JSON.parse(datos);
+                musica = JSON.parse(datos);
                 //console.log(canciones);
-                canciones.forEach(cancion => {
-                    //console.log(cancion);
-                    let titulo = document.createElement('h3');
-                    titulo.innerText = cancion.titulo;
+                musica.forEach(grupo => {
+                    let songs = grupo.songs;
+                    let artistaElement = document.querySelector('#artista');
+                    let cancionElement = document.querySelector('#cancion');
+                    artistaElement.textContent = grupo.artista;
+                    cancionElement.textContent = grupo.songs[0]['titulo'];
                     document.querySelector('#lista-canciones').appendChild(titulo);
                     titulo.addEventListener("click", () => {
                         //document.querySelector('#cancionSeleccionada').innerHTML = cancion.titulo;
                         //cargarCancion(cancion.titulo, cancion.cancion);
-                        cargarCancion(cancion.id);
-                        console.log(cancion.id);
+                        console.log(songs);
+                        cargarCancion(songs['id']);
+                        console.log(songs['id']);
                     });
                 });
             }
@@ -37,12 +42,12 @@ function cargarCancion(id) { //(titulo, cancion)
     //al declarar canciones fuera ya la podemos usar en esta función
     //canciones es un array de canción ccon su id, titulo y cancion
 
-    let titulo = canciones[id]["titulo"];
-    let cancion = canciones[id]["cancion"];
+    let titulo = musica[id]["titulo"];
+    let cancion = musica[id]["cancion"];
 
     document.querySelector("#cancionSeleccionada").innerHTML = titulo;
     reproductor.src = "./audio/" + cancion;
-    reproducir();
+    reproducir_pausar();
 
     reproductor.addEventListener("timeupdate", () => {
         document.querySelector("#barra").value = reproductor.currentTime;
@@ -55,8 +60,8 @@ function cargarCancion(id) { //(titulo, cancion)
         //cargarCancion(titulo, cancion);
         //console.log(canciones.length);
 
-        if (id == canciones.length - 1) {
-            id = 0;
+        if (id == musica.length) {
+            id = 1;
             cargarCancion(id);
         } else {
             cargarCancion(++id);
@@ -67,9 +72,8 @@ function cargarCancion(id) { //(titulo, cancion)
 }
 
 function cargar() {
-    document.querySelector("#play").addEventListener("click", reproducir);
-    document.querySelector("#pause").addEventListener("click", pausar);
-    document.querySelector("#stop").addEventListener("click", parar);
+    document.querySelector("#play").addEventListener("click", reproducir_pausar);
+    // document.querySelector("#stop").addEventListener("click", parar);
     //document.querySelector('#barra').value = 0;
 
     document.querySelector('#volumen').addEventListener("change", () => {
@@ -86,22 +90,23 @@ function cargar() {
 
 }
 
-function reproducir() {
-    console.log("sonando");
-    reproductor.play();
-    reproductor.addEventListener('timeupdate', function() {
-        document.querySelector('#barra').value = reproductor.currentTime;
-    });
-}
-
-function pausar() {
-    console.log("pausando");
-    reproductor.pause();
+function reproducir_pausar() {
+    if(!sonando){
+        console.log("sonando");
+        reproductor.play();
+        sonando = true;
+        reproductor.addEventListener('timeupdate', function() {
+            document.querySelector('#barra').value = reproductor.currentTime;
+        });
+    } else {
+        console.log("pausando");
+        reproductor.pause();
+        sonando = false;
+    }
 }
 
 function parar() {
     console.log("parando");
     reproductor.pause();
     reproductor.currentTime = 0;
-
 }

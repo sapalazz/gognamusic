@@ -1,8 +1,10 @@
-[{
+[
+    {
         "id": 1,
         "artista": "Checkie Brown",
         "imagen": "imgs-albumes/elevator2.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Disco (CB 201)",
                 "cancion": "01 Checkie Brown - Disco (CB 201).mp3"
@@ -33,7 +35,8 @@
         "id": 2,
         "artista": "Crush Limbo",
         "imagen": "imgs-albumes/musicforchicks.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Banal Conversations",
                 "cancion": "01 Crush Limbo - Banal Conversations.mp3"
@@ -59,7 +62,8 @@
         "id": 3,
         "artista": "Daniel Birch",
         "imagen": "imgs-albumes/wehaditcoming.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Danger Drone",
                 "cancion": "01 Daniel Birch - Danger Drone.mp3"
@@ -90,7 +94,8 @@
         "id": 4,
         "artista": "Dragon Force",
         "imagen": "imgs-albumes/extremepower.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Cosmic Power of the Infinite Shred Machine",
                 "cancion": "Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
@@ -146,7 +151,8 @@
         "id": 5,
         "artista": "Imagine Dragon",
         "imagen": "imgs-albumes/evolve.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Believer",
                 "cancion": "Imagine Dragons - Believer.mp3"
@@ -212,7 +218,8 @@
         "id": 6,
         "artista": "Mago de Oz",
         "imagen": "imgs-albumes/celticland.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Fiesta pagana 2.0",
                 "cancion": "Mägo de Oz - Fiesta pagana 2.0.mp3"
@@ -253,7 +260,8 @@
         "id": 7,
         "artista": "Scanglobe",
         "imagen": "imgs-albumes/submarine.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Sunlight",
                 "cancion": "01 Scanglobe - Sunlight.mp3"
@@ -279,7 +287,8 @@
         "id": 8,
         "artista": "Selfpity",
         "imagen": "imgs-albumes/alwaysfeelthecold.jpg",
-        "songs": [{
+        "songs": [
+            {
                 "id": 1,
                 "titulo": "Always Feel the Cold",
                 "cancion": "01 Selfpity - Always Feel the Cold.mp3"
