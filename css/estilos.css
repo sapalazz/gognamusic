@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#icono {
+  width: 50%;
+}
+/*# sourceMappingURL=estilos.css.map */
