@@ -1,9 +1,92 @@
-[
-    {
+[{
         "id": 1,
-        "artista": "Dragon Force",
-        "songs": [
+        "artista": "Checkie Brown",
+        "songs": [{
+                "id": 1,
+                "titulo": "Disco (CB 201)",
+                "cancion": "01 Checkie Brown - Disco (CB 201).mp3"
+            },
             {
+                "id": 2,
+                "titulo": "Hawaii 5-0 (CB 203)",
+                "cancion": "02 Checkie Brown - Hawaii 5-0 (CB 203).mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "Goodbye Jonny (CB 206)",
+                "cancion": "03 Checkie Brown - Goodbye Jonny (CB 206).mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Sonnenschein (CB 215)",
+                "cancion": "04 Checkie Brown - Sonnenschein (CB 215).mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "Um die Ecke (CB 216)",
+                "cancion": "05 Checkie Brown - Um die Ecke (CB 216).mp3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "artista": "Crush Limbo",
+        "songs": [{
+                "id": 1,
+                "titulo": "Banal Conversations",
+                "cancion": "01 Crush Limbo - Banal Conversations.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Beau Demimonde",
+                "cancion": "02 Crush Limbo - Beau Demimonde.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "Soledad",
+                "cancion": "03 Crush Limbo - Soledad.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Robot Made a Man of Me",
+                "cancion": "04 Crush Limbo - Robot Made a Man of Me.mp3"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "artista": "Daniel Birch",
+        "songs": [{
+                "id": 1,
+                "titulo": "Danger Drone",
+                "cancion": "01 Daniel Birch - Danger Drone.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Fairground Pursue",
+                "cancion": "02 Daniel Birch - Fairground Pursue.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "Gentle Sea Swell",
+                "cancion": "03 Daniel Birch - Gentle Sea Swell.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Dark Thoughts 1",
+                "cancion": "04 Daniel Birch - Dark Thoughts 1.mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "Heartbeat Drone",
+                "cancion": "05 Daniel Birch - Heartbeat Drone.mp3"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "artista": "Dragon Force",
+        "songs": [{
                 "id": 1,
                 "titulo": "Cosmic Power of the Infinite Shred Machine",
                 "cancion": "Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
@@ -56,10 +139,9 @@
         ]
     },
     {
-        "id": 2,
+        "id": 5,
         "artista": "Imagine Dragon",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Believer",
                 "cancion": "Imagine Dragons - Believer.mp3"
@@ -122,10 +204,9 @@
         ]
     },
     {
-        "id": 3,
+        "id": 6,
         "artista": "Mago de Oz",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Fiesta pagana 2.0",
                 "cancion": "Mägo de Oz - Fiesta pagana 2.0.mp3"
@@ -159,6 +240,66 @@
                 "id": 7,
                 "titulo": "Molinos De Viento",
                 "cancion": "Mägo De Oz - Molinos De Viento.mp3"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "artista": "Scanglobe",
+        "songs": [{
+                "id": 1,
+                "titulo": "Sunlight",
+                "cancion": "01 Scanglobe - Sunlight.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Midnight",
+                "cancion": "02 Scanglobe - Midnight.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "Abyss",
+                "cancion": "03 Scanglobe - Abyss.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Trench",
+                "cancion": "04 Scanglobe - Trench.mp3"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "artista": "Selfpity",
+        "songs": [{
+                "id": 1,
+                "titulo": "Always Feel the Cold",
+                "cancion": "01 Selfpity - Always Feel the Cold.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Big Sleep",
+                "cancion": "02 Selfpity - Big Sleep.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "C.R.Y.",
+                "cancion": "03 Selfpity - C.R.Y.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Dead Dreams",
+                "cancion": "04 Selfpity - Dead Dreams.mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "Everlasting Room",
+                "cancion": "05 Selfpity - Everlasting Room.mp3"
+            },
+            {
+                "id": 6,
+                "titulo": "Somebody Kill Me",
+                "cancion": "06 Selfpity - Somebody Kill Me.mp3"
             }
         ]
     }
