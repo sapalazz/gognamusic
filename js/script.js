@@ -6,7 +6,7 @@ function cargarAjax() {
     cargar();
     console.log("dentro...");
     let req = new XMLHttpRequest();
-    req.open('GET', 'album_alphaville.json', true);
+    req.open('GET', 'albumes.json', true);
     req.send();
     req.onreadystatechange = function() {
         if (req.readyState == 4) {

@@ -1,0 +1,165 @@
+[
+    {
+        "id": 1,
+        "artista": "Dragon Force",
+        "songs": [
+            {
+                "id": 1,
+                "titulo": "Cosmic Power of the Infinite Shred Machine",
+                "cancion": "Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "In a Skyforged Dream",
+                "cancion": "Dragon Force - In a Skyforged Dream.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "My Heart Will Go On",
+                "cancion": "Dragon Force - My Heart Will Go On.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "Remembrance Day",
+                "cancion": "Dragon Force - Remembrance Day.mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "Strangers",
+                "cancion": "Dragon Force - Strangers.mp3"
+            },
+            {
+                "id": 6,
+                "titulo": "The Last Dragonborn",
+                "cancion": "Dragon Force - The Last Dragonborn.mp3"
+            },
+            {
+                "id": 7,
+                "titulo": "Heart Demolition",
+                "cancion": "DragonForce - Heart Demolition.mp3"
+            },
+            {
+                "id": 8,
+                "titulo": "Highway to Oblivion",
+                "cancion": "DragonForce - Highway to Oblivion.mp3"
+            },
+            {
+                "id": 9,
+                "titulo": "Razorblade Meltdown",
+                "cancion": "DragonForce - Razorblade Meltdown.mp3"
+            },
+            {
+                "id": 10,
+                "titulo": "Troopers of the Stars",
+                "cancion": "DragonForce - Troopers of the Stars.mp3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "artista": "Imagine Dragon",
+        "songs": [
+            {
+                "id": 1,
+                "titulo": "Believer",
+                "cancion": "Imagine Dragons - Believer.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Dancing In The Dark",
+                "cancion": "Imagine Dragons - Dancing In The Dark.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "I Dont Know Why",
+                "cancion": "Imagine Dragons - I Dont Know Why.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "I'll Make It Up To You",
+                "cancion": "Imagine Dragons - I'll Make It Up To You.mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "Mouth Of The River",
+                "cancion": "Imagine Dragons - Mouth Of The River.mp3"
+            },
+            {
+                "id": 6,
+                "titulo": "Next To Me",
+                "cancion": "Imagine Dragons - Next To Me.mp3"
+            },
+            {
+                "id": 7,
+                "titulo": "Rise Up",
+                "cancion": "Imagine Dragons - Rise Up.mp3"
+            },
+            {
+                "id": 8,
+                "titulo": "Start Over",
+                "cancion": "Imagine Dragons - Start Over.mp3"
+            },
+            {
+                "id": 9,
+                "titulo": "Thunder",
+                "cancion": "Imagine Dragons - Thunder.mp3"
+            },
+            {
+                "id": 10,
+                "titulo": "Walking The Wire",
+                "cancion": "Imagine Dragons - Walking The Wire.mp3"
+            },
+            {
+                "id": 11,
+                "titulo": "Whatever It Takes",
+                "cancion": "Imagine Dragons - Whatever It Takes.mp3"
+            },
+            {
+                "id": 12,
+                "titulo": "Yesterday",
+                "cancion": "Imagine Dragons - Yesterday.mp3"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "artista": "Mago de Oz",
+        "songs": [
+            {
+                "id": 1,
+                "titulo": "Fiesta pagana 2.0",
+                "cancion": "Mägo de Oz - Fiesta pagana 2.0.mp3"
+            },
+            {
+                "id": 2,
+                "titulo": "Hasta que el cuerpo aguante",
+                "cancion": "Mägo de Oz - Hasta que el cuerpo aguante.mp3"
+            },
+            {
+                "id": 3,
+                "titulo": "La cruz de Santiago",
+                "cancion": "Mägo de Oz - La cruz de Santiago.mp3"
+            },
+            {
+                "id": 4,
+                "titulo": "La danza del fuego",
+                "cancion": "Mägo de Oz - La danza del fuego.mp3"
+            },
+            {
+                "id": 5,
+                "titulo": "La posada de los muertos",
+                "cancion": "Mägo de Oz - La posada de los muertos.mp3"
+            },
+            {
+                "id": 6,
+                "titulo": "La Rosa De Los Vientos",
+                "cancion": "Mägo de Oz - La Rosa De Los Vientos.mp3"
+            },
+            {
+                "id": 7,
+                "titulo": "Molinos De Viento",
+                "cancion": "Mägo De Oz - Molinos De Viento.mp3"
+            }
+        ]
+    }
+]
