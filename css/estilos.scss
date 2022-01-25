@@ -13,11 +13,31 @@ nav .nombre .titulo{
     padding-top: 3%;
     padding-left: 2%;
 }
-
-.principal 
-{
-    img 
-    {
-        max-width: 50%;
-    }
+header .reproductor .contenedor{
+    height: 20%;
+    background-color: #6a5d4d;
+    color:white;
+    font-family: 'Righteous';
+}
+header .reproductor .contenedor{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+header .reproductor .total{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6a5d4d;
+    color:white;
+    font-family: 'Righteous';
+}
+header .reproductor .total .icons-repro{
+    height: 20px;
+    width: 20px;
+    border-radius: 10%;
+}
+header .reproductor .total .botons{
+    height: 25%;
+    width: 20%;
+    border-radius: 10%;
 }
