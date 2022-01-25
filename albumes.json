@@ -1,6 +1,7 @@
 [{
         "id": 1,
         "artista": "Checkie Brown",
+        "imagen": "imgs-albumes/elevator2.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Disco (CB 201)",
@@ -31,6 +32,7 @@
     {
         "id": 2,
         "artista": "Crush Limbo",
+        "imagen": "imgs-albumes/musicforchicks.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Banal Conversations",
@@ -56,6 +58,7 @@
     {
         "id": 3,
         "artista": "Daniel Birch",
+        "imagen": "imgs-albumes/wehaditcoming.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Danger Drone",
@@ -86,6 +89,7 @@
     {
         "id": 4,
         "artista": "Dragon Force",
+        "imagen": "imgs-albumes/extremepower.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Cosmic Power of the Infinite Shred Machine",
@@ -141,6 +145,7 @@
     {
         "id": 5,
         "artista": "Imagine Dragon",
+        "imagen": "imgs-albumes/evolve.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Believer",
@@ -206,6 +211,7 @@
     {
         "id": 6,
         "artista": "Mago de Oz",
+        "imagen": "imgs-albumes/celticland.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Fiesta pagana 2.0",
@@ -246,6 +252,7 @@
     {
         "id": 7,
         "artista": "Scanglobe",
+        "imagen": "imgs-albumes/submarine.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Sunlight",
@@ -271,6 +278,7 @@
     {
         "id": 8,
         "artista": "Selfpity",
+        "imagen": "imgs-albumes/alwaysfeelthecold.jpg",
         "songs": [{
                 "id": 1,
                 "titulo": "Always Feel the Cold",
