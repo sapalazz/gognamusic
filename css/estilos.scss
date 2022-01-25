@@ -4,5 +4,16 @@ body{
 
 }
 .icono{
-    width: 50%;
+    width: 8%;
+}
+
+nav .nombre{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Righteous';
+}
+nav .nombre .titulo{
+    padding-top: 3%;
+    padding-left: 2%;
 }
