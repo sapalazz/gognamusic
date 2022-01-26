@@ -63,4 +63,13 @@ header .reproductor .total .botons {
   background-color: red;
   color: white;
 }
+
+.volver .btn {
+  background-color: red;
+}
+
+.volver .btn a {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=estilos.css.map */
