@@ -52,4 +52,15 @@ header .reproductor .total .botons {
   width: 20%;
   border-radius: 10%;
 }
+
+.portada .artista {
+  color: red;
+}
+
+.portada .botones .btn {
+  margin: 1px solid red;
+  border-radius: 5%;
+  background-color: red;
+  color: white;
+}
 /*# sourceMappingURL=estilos.css.map */
