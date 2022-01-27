@@ -70,3 +70,16 @@ header .reproductor .total .botons {
         }
     }
 }
+
+#principal {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        a {
+            img {
+                width: 180px;
+                padding: 5%;
+            }
+        }
+    }
+}
