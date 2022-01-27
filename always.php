@@ -1,7 +1,7 @@
 <?php
 $p = null;
-if(isset($_GET['id']))
-$p = $_GET['id'];
+if (isset($_GET['id']))
+    $p = $_GET['id'];
 
 ?>
 
@@ -93,16 +93,15 @@ $p = $_GET['id'];
                     <div class="portada container" id="portada">
                         <div class="row m-3">
                             <div class="col">
-                                <img class="col-10 imgPortada" alt="" id="<?=$p ?>">
+                                <img class="col-10 imgPortada" alt="" id="<?= $p ?>">
                             </div>
                             <div class="col">
-                                <h2 class="titulo-album">Always Feel the Cold</h1>
-                                    <h3 class="artista mt-2">selfpity</h2>
-                                <h4 class="genero-anio mt-2">Pop - 2022</h3>
-                                    <div class="botones mt-2">
-                                        <button class="btn" id="btn-reproducir">Reproducir</button>
-                                        <button class="btn" id="btn-aleatorio">Aleatorio</button>
-                                    </div>
+                                <h2 class="titulo-album"></h2>
+                                <h3 class="artista mt-2"></h3>
+                                <div class="botones mt-2">
+                                    <button class="btn" id="btn-reproducir">Reproducir</button>
+                                    <button class="btn" id="btn-aleatorio">Aleatorio</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,7 +116,7 @@ $p = $_GET['id'];
                         </ol> -->
                     </div>
                     <div class="volver m-5">
-                        <button class="btn"><a href="../index.html">Volver</a></button>
+                        <button class="btn"><a href="index.html">Volver</a></button>
                     </div>
                 </div>
             </div>

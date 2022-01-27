@@ -20,8 +20,24 @@ function cargarAjax() {
                 let imgPortadaSrc = document.querySelector('.imgPortada');
                 console.log(imgPortadaSrc);
                 musica.forEach(grupo => {
+                    let listaCanciones = document.querySelector('.lista-canciones');
+
                     if (imgPortadaID == grupo.id) {
+                        let tituloCancionPortada = document.querySelector('.titulo-album');
+                        tituloCancionPortada.innerHTML = grupo.songs[0].titulo;
+                        let artistaPortada = document.querySelector('.artista');
+                        artistaPortada.innerHTML = grupo.artista;
                         imgPortadaSrc.src = "./assets/" + grupo.imagen;
+                        let ol = document.createElement('ol');
+                        grupo.songs.forEach(cancion => {
+                            let li = document.createElement('li');
+                            li.innerText = cancion.titulo;
+                            li.addEventListener('click', () => {
+                                cargarCancion(grupo.songs[ /*pasar id de la cancion previamente asignado a su li*/ ]);
+                            });
+                            ol.appendChild(li);
+                        });
+                        listaCanciones.appendChild(ol);
                     }
                     //     let div = document.createElement('div');
                     //     let a = document.createElement('a');
