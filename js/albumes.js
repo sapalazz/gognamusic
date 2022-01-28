@@ -15,7 +15,7 @@ function cargarAjax() {
             if (req.status == 200) {
                 console.log("dentro*2");
                 let datos = req.responseText;
-                let musica = JSON.parse(datos);
+                musica = JSON.parse(datos);
                 let imgPortadaID = document.querySelector('.imgPortada').getAttribute('id');
                 let imgPortadaSrc = document.querySelector('.imgPortada');
                 console.log(imgPortadaSrc);
@@ -23,23 +23,17 @@ function cargarAjax() {
                     let listaCanciones = document.querySelector('.lista-canciones');
 
                     if (imgPortadaID == grupo.id) {
-                        // let tituloCancionPortada = document.querySelector('.titulo-album');
-                        // tituloCancionPortada.innerHTML = grupo.songs[0].titulo;
-
+                        let tituloCancionPortada = document.querySelector('.titulo-album');
+                        tituloCancionPortada.innerHTML = grupo.songs[0].titulo;
                         let artistaPortada = document.querySelector('.artista');
                         artistaPortada.innerHTML = grupo.artista;
                         imgPortadaSrc.src = "./assets/" + grupo.imagen;
                         let ol = document.createElement('ol');
                         grupo.songs.forEach(cancion => {
                             let li = document.createElement('li');
-                            let hidden = crearInputCancion(cancion.cancion);
                             li.innerText = cancion.titulo;
-                            li.appendChild(hidden);
-                            li.addEventListener('click', (event) => {
-                                const tituloCancion = event.target.innerText;
-                                document.getElementById("tituloCancion").innerHTML = tituloCancion;
-                                const nombreFichero = event.target.lastElementChild.value;
-                                cargarCancionPorFichero(nombreFichero, reproductor);
+                            li.addEventListener('click', () => {
+                                cargarCancion(grupo.songs[ /*pasar id de la cancion previamente asignado a su li*/ ]);
                             });
                             ol.appendChild(li);
                         });
@@ -71,20 +65,6 @@ function cargarAjax() {
         }
     };
 }
-
-
-function crearInputCancion(cancion) {
-    let input = document.createElement('input');
-    input.type = 'hidden';
-    input.value = cancion;
-    return input;
-}
-
-function cargarCancionPorFichero(fichero, reproductor) {
-
-    reproductor.src = fichero;
-}
-
 
 
 
