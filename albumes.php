@@ -96,7 +96,7 @@ if (isset($_GET['id']))
                                 <img class="col-10 imgPortada" alt="" id="<?= $p ?>">
                             </div>
                             <div class="col">
-                                <h2 class="titulo-album"></h2>
+                                <h2 class="titulo-album" id="tituloCancion"></h2>
                                 <h3 class="artista mt-2"></h3>
                                 <div class="botones mt-2">
                                     <button class="btn" id="btn-reproducir">Reproducir</button>

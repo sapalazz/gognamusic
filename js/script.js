@@ -27,7 +27,7 @@ function cargarAjax() {
                     let cancionElement = document.querySelector('#cancion');
                     artistaElement.textContent = grupo.artista;
                     cancionElement.textContent = grupo.songs[0]['titulo'];
-                    a.href = 'album.php?id=' + grupo.id;
+                    a.href = 'albumes.php?id=' + grupo.id;
                     img.src = './assets/' + grupo.imagen;
                     a.addEventListener("click", () => {
                         //document.querySelector('#cancionSeleccionada').innerHTML = cancion.titulo;
