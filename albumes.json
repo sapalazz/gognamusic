@@ -1,33 +1,31 @@
-[
-    {
+[{
         "id": 1,
         "artista": "Checkie Brown",
         "imagen": "imgs-albumes/elevator2.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Disco (CB 201)",
-                "cancion": "01 Checkie Brown - Disco (CB 201).mp3"
+                "cancion": "assets/audio/Checkie Brown/01 Checkie Brown - Disco (CB 201).mp3"
             },
             {
                 "id": 2,
                 "titulo": "Hawaii 5-0 (CB 203)",
-                "cancion": "02 Checkie Brown - Hawaii 5-0 (CB 203).mp3"
+                "cancion": "assets/audio/Checkie Brown/02 Checkie Brown - Hawaii 5-0 (CB 203).mp3"
             },
             {
                 "id": 3,
                 "titulo": "Goodbye Jonny (CB 206)",
-                "cancion": "03 Checkie Brown - Goodbye Jonny (CB 206).mp3"
+                "cancion": "assets/audio/Checkie Brown/03 Checkie Brown - Goodbye Jonny (CB 206).mp3"
             },
             {
                 "id": 4,
                 "titulo": "Sonnenschein (CB 215)",
-                "cancion": "04 Checkie Brown - Sonnenschein (CB 215).mp3"
+                "cancion": "assets/audio/Checkie Brown/04 Checkie Brown - Sonnenschein (CB 215).mp3"
             },
             {
                 "id": 5,
                 "titulo": "Um die Ecke (CB 216)",
-                "cancion": "05 Checkie Brown - Um die Ecke (CB 216).mp3"
+                "cancion": "assets/audio/Checkie Brown/05 Checkie Brown - Um die Ecke (CB 216).mp3"
             }
         ]
     },
@@ -35,26 +33,25 @@
         "id": 2,
         "artista": "Crush Limbo",
         "imagen": "imgs-albumes/musicforchicks.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Banal Conversations",
-                "cancion": "01 Crush Limbo - Banal Conversations.mp3"
+                "cancion": "assets/audio/Crush Limbo/01 Crush Limbo - Banal Conversations.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Beau Demimonde",
-                "cancion": "02 Crush Limbo - Beau Demimonde.mp3"
+                "cancion": "assets/audio/Crush Limbo/02 Crush Limbo - Beau Demimonde.mp3"
             },
             {
                 "id": 3,
                 "titulo": "Soledad",
-                "cancion": "03 Crush Limbo - Soledad.mp3"
+                "cancion": "assets/audio/Crush Limbo/03 Crush Limbo - Soledad.mp3"
             },
             {
                 "id": 4,
                 "titulo": "Robot Made a Man of Me",
-                "cancion": "04 Crush Limbo - Robot Made a Man of Me.mp3"
+                "cancion": "assets/audio/Crush Limbo/04 Crush Limbo - Robot Made a Man of Me.mp3"
             }
         ]
     },
@@ -62,31 +59,30 @@
         "id": 3,
         "artista": "Daniel Birch",
         "imagen": "imgs-albumes/wehaditcoming.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Danger Drone",
-                "cancion": "01 Daniel Birch - Danger Drone.mp3"
+                "cancion": "assets/audio/Daniel Birch/01 Daniel Birch - Danger Drone.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Fairground Pursue",
-                "cancion": "02 Daniel Birch - Fairground Pursue.mp3"
+                "cancion": "assets/audio/Daniel Birch/02 Daniel Birch - Fairground Pursue.mp3"
             },
             {
                 "id": 3,
                 "titulo": "Gentle Sea Swell",
-                "cancion": "03 Daniel Birch - Gentle Sea Swell.mp3"
+                "cancion": "assets/audio/Daniel Birch/03 Daniel Birch - Gentle Sea Swell.mp3"
             },
             {
                 "id": 4,
                 "titulo": "Dark Thoughts 1",
-                "cancion": "04 Daniel Birch - Dark Thoughts 1.mp3"
+                "cancion": "assets/audio/Daniel Birch/04 Daniel Birch - Dark Thoughts 1.mp3"
             },
             {
                 "id": 5,
                 "titulo": "Heartbeat Drone",
-                "cancion": "05 Daniel Birch - Heartbeat Drone.mp3"
+                "cancion": "assets/audio/Daniel Birch/05 Daniel Birch - Heartbeat Drone.mp3"
             }
         ]
     },
@@ -94,56 +90,55 @@
         "id": 4,
         "artista": "Dragon Force",
         "imagen": "imgs-albumes/extremepower.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Cosmic Power of the Infinite Shred Machine",
-                "cancion": "Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - Cosmic Power of the Infinite Shred Machine.mp3"
             },
             {
                 "id": 2,
                 "titulo": "In a Skyforged Dream",
-                "cancion": "Dragon Force - In a Skyforged Dream.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - In a Skyforged Dream.mp3"
             },
             {
                 "id": 3,
                 "titulo": "My Heart Will Go On",
-                "cancion": "Dragon Force - My Heart Will Go On.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - My Heart Will Go On.mp3"
             },
             {
                 "id": 4,
                 "titulo": "Remembrance Day",
-                "cancion": "Dragon Force - Remembrance Day.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - Remembrance Day.mp3"
             },
             {
                 "id": 5,
                 "titulo": "Strangers",
-                "cancion": "Dragon Force - Strangers.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - Strangers.mp3"
             },
             {
                 "id": 6,
                 "titulo": "The Last Dragonborn",
-                "cancion": "Dragon Force - The Last Dragonborn.mp3"
+                "cancion": "assets/audio/Dragon Force/Dragon Force - The Last Dragonborn.mp3"
             },
             {
                 "id": 7,
                 "titulo": "Heart Demolition",
-                "cancion": "DragonForce - Heart Demolition.mp3"
+                "cancion": "assets/audio/Dragon Force/DragonForce - Heart Demolition.mp3"
             },
             {
                 "id": 8,
                 "titulo": "Highway to Oblivion",
-                "cancion": "DragonForce - Highway to Oblivion.mp3"
+                "cancion": "assets/audio/Dragon Force/DragonForce - Highway to Oblivion.mp3"
             },
             {
                 "id": 9,
                 "titulo": "Razorblade Meltdown",
-                "cancion": "DragonForce - Razorblade Meltdown.mp3"
+                "cancion": "assets/audio/Dragon Force/DragonForce - Razorblade Meltdown.mp3"
             },
             {
                 "id": 10,
                 "titulo": "Troopers of the Stars",
-                "cancion": "DragonForce - Troopers of the Stars.mp3"
+                "cancion": "assets/audio/Dragon Force/DragonForce - Troopers of the Stars.mp3"
             }
         ]
     },
@@ -151,66 +146,65 @@
         "id": 5,
         "artista": "Imagine Dragon",
         "imagen": "imgs-albumes/evolve.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Believer",
-                "cancion": "Imagine Dragons - Believer.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Believer.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Dancing In The Dark",
-                "cancion": "Imagine Dragons - Dancing In The Dark.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Dancing In The Dark.mp3"
             },
             {
                 "id": 3,
                 "titulo": "I Dont Know Why",
-                "cancion": "Imagine Dragons - I Dont Know Why.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - I Dont Know Why.mp3"
             },
             {
                 "id": 4,
                 "titulo": "I'll Make It Up To You",
-                "cancion": "Imagine Dragons - I'll Make It Up To You.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - I'll Make It Up To You.mp3"
             },
             {
                 "id": 5,
                 "titulo": "Mouth Of The River",
-                "cancion": "Imagine Dragons - Mouth Of The River.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Mouth Of The River.mp3"
             },
             {
                 "id": 6,
                 "titulo": "Next To Me",
-                "cancion": "Imagine Dragons - Next To Me.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Next To Me.mp3"
             },
             {
                 "id": 7,
                 "titulo": "Rise Up",
-                "cancion": "Imagine Dragons - Rise Up.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Rise Up.mp3"
             },
             {
                 "id": 8,
                 "titulo": "Start Over",
-                "cancion": "Imagine Dragons - Start Over.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Start Over.mp3"
             },
             {
                 "id": 9,
                 "titulo": "Thunder",
-                "cancion": "Imagine Dragons - Thunder.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Thunder.mp3"
             },
             {
                 "id": 10,
                 "titulo": "Walking The Wire",
-                "cancion": "Imagine Dragons - Walking The Wire.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Walking The Wire.mp3"
             },
             {
                 "id": 11,
                 "titulo": "Whatever It Takes",
-                "cancion": "Imagine Dragons - Whatever It Takes.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Whatever It Takes.mp3"
             },
             {
                 "id": 12,
                 "titulo": "Yesterday",
-                "cancion": "Imagine Dragons - Yesterday.mp3"
+                "cancion": "assets/audio/Imagine Dragons/Imagine Dragons - Yesterday.mp3"
             }
         ]
     },
@@ -218,41 +212,40 @@
         "id": 6,
         "artista": "Mago de Oz",
         "imagen": "imgs-albumes/celticland.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Fiesta pagana 2.0",
-                "cancion": "Mägo de Oz - Fiesta pagana 2.0.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - Fiesta pagana 2.0.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Hasta que el cuerpo aguante",
-                "cancion": "Mägo de Oz - Hasta que el cuerpo aguante.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - Hasta que el cuerpo aguante.mp3"
             },
             {
                 "id": 3,
                 "titulo": "La cruz de Santiago",
-                "cancion": "Mägo de Oz - La cruz de Santiago.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - La cruz de Santiago.mp3"
             },
             {
                 "id": 4,
                 "titulo": "La danza del fuego",
-                "cancion": "Mägo de Oz - La danza del fuego.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - La danza del fuego.mp3"
             },
             {
                 "id": 5,
                 "titulo": "La posada de los muertos",
-                "cancion": "Mägo de Oz - La posada de los muertos.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - La posada de los muertos.mp3"
             },
             {
                 "id": 6,
                 "titulo": "La Rosa De Los Vientos",
-                "cancion": "Mägo de Oz - La Rosa De Los Vientos.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo de Oz - La Rosa De Los Vientos.mp3"
             },
             {
                 "id": 7,
                 "titulo": "Molinos De Viento",
-                "cancion": "Mägo De Oz - Molinos De Viento.mp3"
+                "cancion": "assets/audio/Mägo de Oz/Mägo De Oz - Molinos De Viento.mp3"
             }
         ]
     },
@@ -260,26 +253,25 @@
         "id": 7,
         "artista": "Scanglobe",
         "imagen": "imgs-albumes/submarine.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Sunlight",
-                "cancion": "01 Scanglobe - Sunlight.mp3"
+                "cancion": "assets/audio/Scanglobe/01 Scanglobe - Sunlight.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Midnight",
-                "cancion": "02 Scanglobe - Midnight.mp3"
+                "cancion": "assets/audio/Scanglobe/02 Scanglobe - Midnight.mp3"
             },
             {
                 "id": 3,
                 "titulo": "Abyss",
-                "cancion": "03 Scanglobe - Abyss.mp3"
+                "cancion": "assets/audio/Scanglobe/03 Scanglobe - Abyss.mp3"
             },
             {
                 "id": 4,
                 "titulo": "Trench",
-                "cancion": "04 Scanglobe - Trench.mp3"
+                "cancion": "assets/audio/Scanglobe/04 Scanglobe - Trench.mp3"
             }
         ]
     },
@@ -287,36 +279,35 @@
         "id": 8,
         "artista": "Selfpity",
         "imagen": "imgs-albumes/alwaysfeelthecold.jpg",
-        "songs": [
-            {
+        "songs": [{
                 "id": 1,
                 "titulo": "Always Feel the Cold",
-                "cancion": "01 Selfpity - Always Feel the Cold.mp3"
+                "cancion": "assets/audio/Selfpity/01 Selfpity - Always Feel the Cold.mp3"
             },
             {
                 "id": 2,
                 "titulo": "Big Sleep",
-                "cancion": "02 Selfpity - Big Sleep.mp3"
+                "cancion": "assets/audio/Selfpity/02 Selfpity - Big Sleep.mp3"
             },
             {
                 "id": 3,
                 "titulo": "C.R.Y.",
-                "cancion": "03 Selfpity - C.R.Y.mp3"
+                "cancion": "assets/audio/Selfpity/03 Selfpity - C.R.Y.mp3"
             },
             {
                 "id": 4,
                 "titulo": "Dead Dreams",
-                "cancion": "04 Selfpity - Dead Dreams.mp3"
+                "cancion": "assets/audio/Selfpity/04 Selfpity - Dead Dreams.mp3"
             },
             {
                 "id": 5,
                 "titulo": "Everlasting Room",
-                "cancion": "05 Selfpity - Everlasting Room.mp3"
+                "cancion": "assets/audio/Selfpity/05 Selfpity - Everlasting Room.mp3"
             },
             {
                 "id": 6,
                 "titulo": "Somebody Kill Me",
-                "cancion": "06 Selfpity - Somebody Kill Me.mp3"
+                "cancion": "assets/audio/Selfpity/06 Selfpity - Somebody Kill Me.mp3"
             }
         ]
     }

@@ -86,4 +86,17 @@ header .reproductor .vol {
   color: white;
   text-decoration: none;
 }
+
+#principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#principal div a img {
+  width: 180px;
+  padding: 5%;
+}
 /*# sourceMappingURL=estilos.css.map */
