@@ -53,6 +53,20 @@ header .reproductor .total .botons {
   border-radius: 10%;
 }
 
+header .reproductor .repro {
+  padding-top: 3%;
+  padding-left: 4%;
+}
+
+header .reproductor .repro #barra {
+  width: 235px;
+}
+
+header .reproductor .vol {
+  padding-top: 4%;
+  padding-left: 4%;
+}
+
 .portada .artista {
   color: red;
 }
