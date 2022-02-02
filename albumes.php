@@ -6,7 +6,7 @@ if (isset($_GET['id']))
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -33,8 +33,8 @@ if (isset($_GET['id']))
                 <div class="contenedor">
                     <!-- Buscar como implementar las diferentes  -->
                     <img src="" alt="" id='imagen'>
-                    <p id="artista">Artista</p>
-                    <p id="cancion">Cancion</p>
+                    <p id="artista"></p>
+                    <p id="cancion"></p>
                 </div>
                 <div class="repro">
                     <audio src="" id="track"></audio>
@@ -69,7 +69,7 @@ if (isset($_GET['id']))
                         <span>Radio</span>
                     </div>
                     <div class="biblioteca mt-3">
-                        <h4 class="mt-3">Biblioteca</h2>
+                        <h4 class="mt-3">Biblioteca</h4>
                             <hr class="my-4">
                             <div class="added mt-3">
                                 <img src="assets/iconos-sara/clock.svg" alt="">
@@ -106,14 +106,6 @@ if (isset($_GET['id']))
                         </div>
                     </div>
                     <div class="lista-canciones col mt-5 m-3">
-                        <!-- <ol>
-                            <li class="m-3" id="always-1">Always Feel the Cold</li>
-                            <li class="m-3" id="always-2">Big Sleep</li>
-                            <li class="m-3" id="always-3">C.R.Y.</li>
-                            <li class="m-3" id="always-4">Dead Dreams</li>
-                            <li class="m-3" id="always-5">Everlasting Room</li>
-                            <li class="m-3" id="always-6">Somebody Kill Me</li>
-                        </ol> -->
                     </div>
                     <div class="volver m-5">
                         <button class="btn"><a href="index.html">Volver</a></button>

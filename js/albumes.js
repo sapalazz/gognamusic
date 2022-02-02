@@ -6,26 +6,20 @@ let sonando = false;
 
 function cargarAjax() {
     cargar();
-    console.log("dentro...");
     let req = new XMLHttpRequest();
     req.open('GET', 'albumes.json', true);
     req.send();
     req.onreadystatechange = function() {
         if (req.readyState == 4) {
             if (req.status == 200) {
-                console.log("dentro*2");
                 let datos = req.responseText;
                 let musica = JSON.parse(datos);
                 let imgPortadaID = document.querySelector('.imgPortada').getAttribute('id');
                 let imgPortadaSrc = document.querySelector('.imgPortada');
-                console.log(imgPortadaSrc);
                 musica.forEach(grupo => {
                     let listaCanciones = document.querySelector('.lista-canciones');
 
                     if (imgPortadaID == grupo.id) {
-                        // let tituloCancionPortada = document.querySelector('.titulo-album');
-                        // tituloCancionPortada.innerHTML = grupo.songs[0].titulo;
-
                         let artistaPortada = document.querySelector('.artista');
                         artistaPortada.innerHTML = grupo.artista;
                         imgPortadaSrc.src = "./assets/" + grupo.imagen;
@@ -38,6 +32,9 @@ function cargarAjax() {
                             li.addEventListener('click', (event) => {
                                 const tituloCancion = event.target.innerText;
                                 document.getElementById("tituloCancion").innerHTML = tituloCancion;
+                                document.getElementById("cancion").innerHTML = tituloCancion;
+                                document.getElementById("artista").innerHTML = grupo.artista;
+                                document.getElementById("imagen").src = "./assets/" + grupo.imagen;
                                 const nombreFichero = event.target.lastElementChild.value;
                                 cargarCancionPorFichero(nombreFichero, reproductor);
                             });
@@ -45,27 +42,6 @@ function cargarAjax() {
                         });
                         listaCanciones.appendChild(ol);
                     }
-                    //     let div = document.createElement('div');
-                    //     let a = document.createElement('a');
-                    //     let img = document.createElement('img');
-                    //     let songs = grupo.songs;
-                    //     let artistaElement = document.querySelector('#artista');
-                    //     let cancionElement = document.querySelector('#cancion');
-                    //     artistaElement.textContent = grupo.artista;
-                    //     cancionElement.textContent = grupo.songs[0]['titulo'];
-                    //     a.href = 'always.html?id=' + grupo.id;
-                    //     img.src = './assets/' + grupo.imagen;
-                    //     a.addEventListener("click", () => {
-                    //         //document.querySelector('#cancionSeleccionada').innerHTML = cancion.titulo;
-                    //         //cargarCancion(cancion.titulo, cancion.cancion);
-                    //         console.log(songs);
-                    //         cargarCancion(songs['id']);
-                    //         console.log(songs['id']);
-                    //     });
-
-                    //     a.appendChild(img);
-                    //     div.appendChild(a);
-                    //     principal.appendChild(div);
                 });
             }
         }
