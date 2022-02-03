@@ -6,7 +6,7 @@ let musica = [];
 let sonando = false;
 
 function cargarAjax() {
-    cargar();
+    //cargar();
     console.log("dentro...");
     let req = new XMLHttpRequest();
     req.open('GET', 'albumes.json', true);
@@ -44,79 +44,4 @@ function cargarAjax() {
             }
         }
     };
-}
-
-
-
-function cargarCancion(id) { //(titulo, cancion)
-    //al declarar canciones fuera ya la podemos usar en esta función
-    //canciones es un array de canción ccon su id, titulo y cancion
-
-    let titulo = musica[id]["titulo"];
-    let cancion = musica[id]["cancion"];
-
-    document.querySelector("#cancionSeleccionada").innerHTML = titulo;
-    reproductor.src = "./audio/" + cancion;
-    reproducir_pausar();
-
-    reproductor.addEventListener("timeupdate", () => {
-        document.querySelector("#barra").value = reproductor.currentTime;
-        document.querySelector("#barra").max = reproductor.duration;
-        console.log(reproductor.duration);
-    });
-
-    reproductor.addEventListener("ended", () => {
-        console.log("cargar siguiente");
-        //cargarCancion(titulo, cancion);
-        //console.log(canciones.length);
-
-        if (id == musica.length) {
-            id = 1;
-            cargarCancion(id);
-        } else {
-            cargarCancion(++id);
-        }
-
-    });
-
-}
-
-function cargar() {
-    document.querySelector("#play").addEventListener("click", reproducir_pausar);
-    // document.querySelector("#stop").addEventListener("click", parar);
-    //document.querySelector('#barra').value = 0;
-
-    document.querySelector('#volumen').addEventListener("change", () => {
-
-        reproductor.volume = document.querySelector('#volumen').value;
-        console.log("cambiando");
-    });
-
-    document.querySelector('#barra').addEventListener("change", () => {
-
-        reproductor.currentTime = document.querySelector('#barra').value;
-
-    });
-
-}
-
-function reproducir_pausar() {
-    if (!sonando) {
-        console.log("sonando");
-        reproductor.play();
-        sonando = true;
-        reproductor.addEventListener('timeupdate', function() {
-            document.querySelector('#barra').value = reproductor.currentTime;
-        });
-    } else {
-        console.log("pausando");
-        reproductor.pause();
-        sonando = false;
-    }
-}
-
-function parar() {
-    console.log("parando");
-    reproductor.pause();
-    reproductor.currentTime = 0;
 }

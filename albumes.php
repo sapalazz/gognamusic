@@ -40,7 +40,7 @@ if (isset($_GET['id']))
                     <audio src="" id="track"></audio>
                     <input type="range" name="" id="barra" value="0" step="any">
                     <button class="botons" type="button" id="rebobinar"><img src="assets/imgs/rebobinar.png" class="icons-repro"></button>
-                    <button class="botons" type="button" id="play"><img src="assets/imgs/play.png" class="icons-repro"></button>
+                    <button class="botons" type="button" id="play"><img src="assets/imgs/play.png" class="icons-repro" id="imgPlay"></button>
                     <button class="botons" type="button" id="avanzar"><img src="assets/imgs/avance-rapido.png" class="icons-repro"></button>
                     <input type="range" name="" id="volumen" value="0,5" min="0" max="1" step="any">
                 </div>

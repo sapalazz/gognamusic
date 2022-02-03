@@ -1,9 +1,14 @@
-window.onload = cargarAjax;
+window.onload = cargaInicial;
 
 let reproductor = document.querySelector("#track");
-let musica = [];
+let cancionesAlbum = [];
 let sonando = false;
 
+function cargaInicial() {
+    cargarAjax();
+    crearListenerAvanzar();
+    crearListenerPasarCancionCuandoAcaba();
+}
 function cargarAjax() {
     cargar();
     let req = new XMLHttpRequest();
@@ -24,22 +29,24 @@ function cargarAjax() {
                         artistaPortada.innerHTML = grupo.artista;
                         imgPortadaSrc.src = "./assets/" + grupo.imagen;
                         let ol = document.createElement('ol');
-                        grupo.songs.forEach(cancion => {
+                        for(let indice = 0; indice < grupo.songs.length; indice++) {
                             let li = document.createElement('li');
-                            let hidden = crearInputCancion(cancion.cancion);
-                            li.innerText = cancion.titulo;
+                            let hidden = crearInputCancion(grupo.songs[indice].cancion);
+                            li.innerText = grupo.songs[indice].titulo;
                             li.appendChild(hidden);
+                            li.id = "cancion_"+indice;
                             li.addEventListener('click', (event) => {
                                 const tituloCancion = event.target.innerText;
                                 document.getElementById("tituloCancion").innerHTML = tituloCancion;
                                 document.getElementById("cancion").innerHTML = tituloCancion;
                                 document.getElementById("artista").innerHTML = grupo.artista;
                                 document.getElementById("imagen").src = "./assets/" + grupo.imagen;
+                                document.getElementById("avanzar").value = indice + 1;
                                 const nombreFichero = event.target.lastElementChild.value;
                                 cargarCancionPorFichero(nombreFichero, reproductor);
                             });
                             ol.appendChild(li);
-                        });
+                        }
                         listaCanciones.appendChild(ol);
                     }
                 });
@@ -48,6 +55,23 @@ function cargarAjax() {
     };
 }
 
+function crearListenerAvanzar() {
+    document.getElementById("avanzar")
+        .addEventListener("click", event => {
+            const siguienteCancion = event.target.value;
+            reproducir_pausar();
+            let siguiente = document.getElementById("cancion_" +siguienteCancion);
+            if(siguiente != null) {
+                siguiente.click();
+            }
+    });
+}
+
+function crearListenerPasarCancionCuandoAcaba() {
+    reproductor.addEventListener("ended", event => {
+        document.getElementById("avanzar").click();
+    });
+}
 
 function crearInputCancion(cancion) {
     let input = document.createElement('input');
@@ -57,61 +81,28 @@ function crearInputCancion(cancion) {
 }
 
 function cargarCancionPorFichero(fichero, reproductor) {
-
     reproductor.src = fichero;
-}
-
-
-
-
-function cargarCancion(id) { //(titulo, cancion)
-    //al declarar canciones fuera ya la podemos usar en esta función
-    //canciones es un array de canción ccon su id, titulo y cancion
-
-    let titulo = musica[id]["titulo"];
-    let cancion = musica[id]["cancion"];
-
-    document.querySelector("#cancionSeleccionada").innerHTML = titulo;
-    reproductor.src = "./audio/" + cancion;
-    reproducir_pausar();
 
     reproductor.addEventListener("timeupdate", () => {
         document.querySelector("#barra").value = reproductor.currentTime;
         document.querySelector("#barra").max = reproductor.duration;
-        console.log(reproductor.duration);
     });
 
     reproductor.addEventListener("ended", () => {
-        console.log("cargar siguiente");
-        //cargarCancion(titulo, cancion);
-        //console.log(canciones.length);
-
-        if (id == musica.length) {
-            id = 1;
-            cargarCancion(id);
-        } else {
-            cargarCancion(++id);
-        }
-
-    });
-
+        var imgPlay = document.getElementById("imgPlay");
+        imgPlay.src = "assets/imgs/play.png";
+    })
 }
+
 
 function cargar() {
     document.querySelector("#play").addEventListener("click", reproducir_pausar);
-    // document.querySelector("#stop").addEventListener("click", parar);
-    //document.querySelector('#barra').value = 0;
-
     document.querySelector('#volumen').addEventListener("change", () => {
-
         reproductor.volume = document.querySelector('#volumen').value;
         console.log("cambiando");
     });
-
     document.querySelector('#barra').addEventListener("change", () => {
-
         reproductor.currentTime = document.querySelector('#barra').value;
-
     });
 
 }
@@ -121,6 +112,8 @@ function reproducir_pausar() {
         console.log("sonando");
         reproductor.play();
         sonando = true;
+        var imgPlay = document.getElementById("imgPlay");
+        imgPlay.src = "assets/imgs/pause.png";
         reproductor.addEventListener('timeupdate', function() {
             document.querySelector('#barra').value = reproductor.currentTime;
         });
@@ -128,6 +121,8 @@ function reproducir_pausar() {
         console.log("pausando");
         reproductor.pause();
         sonando = false;
+        var imgPlay = document.getElementById("imgPlay");
+        imgPlay.src = "assets/imgs/play.png";
     }
 }
 
