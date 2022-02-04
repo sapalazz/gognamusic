@@ -70,23 +70,23 @@ if (isset($_GET['id']))
                     </div>
                     <div class="biblioteca mt-3">
                         <h4 class="mt-3">Biblioteca</h4>
-                            <hr class="my-4">
-                            <div class="added mt-3">
-                                <img src="assets/iconos-sara/clock.svg" alt="">
-                                <span>Añadido recientemente</span>
-                            </div>
-                            <div class="artistas mt-3">
-                                <img src="assets/iconos-sara/mic.svg" alt="">
-                                <span>Artistas</span>
-                            </div>
-                            <div class="albumes mt-3">
-                                <img src="assets/iconos-sara/music-note-list.svg" alt="">
-                                <span>Álbumes</span>
-                            </div>
-                            <div class="canciones mt-3">
-                                <img src="assets/iconos-sara/file-music.svg" alt="">
-                                <span>Canciones</span>
-                            </div>
+                        <hr class="my-4">
+                        <div class="added mt-3">
+                            <img src="assets/iconos-sara/clock.svg" alt="">
+                            <span>Añadido recientemente</span>
+                        </div>
+                        <div class="artistas mt-3">
+                            <img src="assets/iconos-sara/mic.svg" alt="">
+                            <span>Artistas</span>
+                        </div>
+                        <div class="albumes mt-3">
+                            <img src="assets/iconos-sara/music-note-list.svg" alt="">
+                            <span>Álbumes</span>
+                        </div>
+                        <div class="canciones mt-3">
+                            <img src="assets/iconos-sara/file-music.svg" alt="">
+                            <span>Canciones</span>
+                        </div>
                     </div>
                 </div>
                 <div class="principal col-8 mt-4">
@@ -106,6 +106,7 @@ if (isset($_GET['id']))
                         </div>
                     </div>
                     <div class="lista-canciones col mt-5 m-3">
+                        <!--LISTA CANCIONES -->
                     </div>
                     <div class="volver m-5">
                         <button class="btn"><a href="index.html">Volver</a></button>

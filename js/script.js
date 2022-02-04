@@ -11,7 +11,7 @@ function cargarAjax() {
     let req = new XMLHttpRequest();
     req.open('GET', 'albumes.json', true);
     req.send();
-    req.onreadystatechange = function() {
+    req.onreadystatechange = function () {
         if (req.readyState == 4) {
             if (req.status == 200) {
                 console.log("dentro*2");
