@@ -32,17 +32,17 @@ if (isset($_GET['id']))
             <div class="total">
                 <div class="contenedor">
                     <!-- Buscar como implementar las diferentes  -->
-                    <img src="" alt="" id='imagen'>
+                    <img src="" alt="" id='imagen' style="width: 300px;height: 300px;">
                     <p id="artista"></p>
                     <p id="cancion"></p>
                 </div>
-                <div class="repro">
+                <div class="repro" style="padding-left: 250px;padding-top: 150px;">
                     <audio src="" id="track"></audio>
-                    <input type="range" name="" id="barra" value="0" step="any">
+                    <input type="range" name="" id="barra" value="0" step="any" style="margin-right: 150px;"><br>
                     <button class="botons" type="button" id="rebobinar"><img src="assets/imgs/rebobinar.png" class="icons-repro"></button>
                     <button class="botons" type="button" id="play"><img src="assets/imgs/play.png" class="icons-repro" id="imgPlay"></button>
                     <button class="botons" type="button" id="avanzar"><img src="assets/imgs/avance-rapido.png" class="icons-repro"></button>
-                    <input type="range" name="" id="volumen" value="0,5" min="0" max="1" step="any">
+                    <input type="range" name="" id="volumen" value="0,5" min="0" max="1" step="any" style="width: 75px;">
                 </div>
             </div>
         </section>
@@ -105,7 +105,7 @@ if (isset($_GET['id']))
                             </div>
                         </div>
                     </div>
-                    <div class="lista-canciones col mt-5 m-3">
+                    <div class="lista-canciones col mt-5 m-3" style="cursor:pointer">
                         <!--LISTA CANCIONES -->
                     </div>
                     <div class="volver m-5">
